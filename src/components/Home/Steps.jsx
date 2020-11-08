@@ -17,7 +17,7 @@ const Steps = () => {
               <a href="http://bit.ly/ABAlgoTrade" style={{...btn,fontSize: "1.1rem"}} className="learn-more">
                 CREATE TERMINAL
               </a>
-              <a href="http://bit.ly/ABAlgoTrade" style={{...btn,fontSize: "1.1rem"}} className="learn-more">
+              <a href="https://bit.ly/TTronOffer" style={{...btn,fontSize: "1.1rem"}} className="learn-more">
                 CREATE PLATFORM
               </a>
               </p>} />
