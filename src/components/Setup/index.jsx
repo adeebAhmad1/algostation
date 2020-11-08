@@ -111,10 +111,10 @@ const Setup = () => {
                 <li>
                   <b>Example:</b>
                   <ul>
-                    <li>What is your first car brand: ferrari</li>
+                    <li>What is your first car brand: apple</li>
                     <li>What is your first mobile brand: apple</li>
-                    <li>What is your birth year: 1990</li>
-                    <li>What is your friend name: Jhon</li>
+                    <li>What is your birth year: apple</li>
+                    <li>What is your friend name: apple</li>
                     <li>What is your favoriate food: apple</li>
                   </ul>
                 </li>
@@ -188,7 +188,7 @@ const Setup = () => {
           </div>
         </div>
       </section>
-      <section className="height n2 c">
+      <section className="height">
         <div className="container mt-5">
           <div className="ribbon">
             Setup your first algo trade

@@ -4,6 +4,7 @@ import Header from "./components/Layout/Header";
 import Home from "./components/Home";
 import Setup from "./components/Setup";
 import Performance from "./components/Performance";
+import Login from "./components/Login";
 import Footer from "./components/Layout/Footer";
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/setup" component={Setup} />
           <Route exact path="/performance" component={Performance} />
+          <Route exact path="/login" component={Login} />
         </Switch>
         <Footer />
       </div>

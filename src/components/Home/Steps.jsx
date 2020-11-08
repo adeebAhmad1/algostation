@@ -6,7 +6,7 @@ const Steps = () => {
   btn["--btn"] = "#000"
   btn["--btn-color"] = "#fff"
   return (
-    <section className="steps text-white py-5">
+    <section className="steps py-5">
         <div className="container">
           <h1 className="text-center py-5">Setup Your First Algo Trading in 3 Simple Steps</h1>
           <div className="row mb-3">

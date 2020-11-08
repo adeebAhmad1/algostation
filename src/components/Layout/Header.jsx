@@ -4,7 +4,7 @@ import Logo from "../../images/logo.png";
 
 const Header = () => {
   const bg = {};
-  bg["--bg"] = "#2e2e2e";
+  bg["--bg"] = "#fff";
   const header = useRef(null);
   useEffect(() => {
     window.addEventListener("scroll", scrollHeader);
@@ -27,12 +27,12 @@ const Header = () => {
           <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
               <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-3">
                   <Link className="navbar-brand nav-brand" to="/">
                     <img src={Logo} style={{ maxWidth: `100%` }} alt="" />
                   </Link>
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-9">
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -79,14 +79,8 @@ const Header = () => {
                           Performance
                         </NavLink>
                       </li>
-                      <li className="">
-                        <a
-                          href="http://bit.ly/ABAlgoTrade"
-                          className="learn-more font-weight-bold"
-                        >
-                          {" "}
-                          Sign In{" "}
-                        </a>
+                      <li>
+                        <a href="http://bit.ly/ABAlgoTrade" className="learn-more font-weight-bold">Sign Up</a>
                       </li>
                     </ul>
                   </div>

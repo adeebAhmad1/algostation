@@ -7,7 +7,7 @@ const Item = ({question,answer}) => {
       <div className="question" onClick={()=>setOpen(o=>!o)}>
         {question}
       </div>
-      {open? <div className="answer text-white bg-dark">
+      {open? <div className="answer text-dark">
         {answer}
       </div>: ""}
     </div>
