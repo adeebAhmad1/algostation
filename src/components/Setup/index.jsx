@@ -8,13 +8,9 @@ const Setup = () => {
       <section className="height">
         <div className="container mt-5">
           <div className="ribbon">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
             Create a Terminal
           </div>
-          <div className="container_inner">
+          <div className=" ">
             <p>
               <b>Step01:</b> Go here to{" "}
               <a href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
@@ -62,13 +58,9 @@ const Setup = () => {
       <section className="height n2">
         <div className="container mt-5">
           <div className="ribbon">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
             Create a Platform
           </div>
-          <div className="container_inner">
+          <div className=" ">
             <p>
               <b>Step01:</b> Go here to{" "}
               <a href="https://bit.ly/TTronOffer">Create Platform</a>
@@ -96,13 +88,9 @@ const Setup = () => {
       <section className="height">
         <div className="container mt-5">
           <div className="ribbon">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
             Change your AB Broker 2FA passwords to same answer
           </div>
-          <div className="container_inner">
+          <div className=" ">
             <p>
               <b>Step01:</b> Go to Ant AB website and directly click forgot
               password.
@@ -141,13 +129,9 @@ const Setup = () => {
       <section className="height n2">
         <div className="container mt-5">
           <div className="ribbon">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
             Subscribe to Retail Plan for Auto Trading
           </div>
-          <div className="container_inner">
+          <div className=" ">
             <p>
               <b>Step01:</b> Go to subscriptions in TT from the top-right Menu
             </p>
@@ -169,13 +153,9 @@ const Setup = () => {
       <section className="height">
         <div className="container mt-5">
           <div className="ribbon">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
             Configure your Trading Account with TT
           </div>
-          <div className="container_inner">
+          <div className=" ">
             <p>
               <b>Step01:</b> Go here{" "}
               <a href="http://bit.ly/ABConfig">Configure</a>
@@ -211,13 +191,9 @@ const Setup = () => {
       <section className="height n2">
         <div className="container mt-5">
           <div className="ribbon">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
             Setup your first algo trade
           </div>
-          <div className="container_inner">
+          <div className=" ">
             <p>
               <b>Step01:</b> Go to Marketplace in TT from Top Center Menu under
               Strategies and search ‘‘Penguin Cave // SOURCE’’

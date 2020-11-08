@@ -10,10 +10,10 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="logo-part">
-                  <a
+                  <Link
                     className="navbar-brand nav-brand"
                     style={{color: "#fff"}}
-                    href="#"
+                    to="/"
                   >
                     ALG
                     <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@ const Footer = () => {
                       </g>
                     </svg>
                     N
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 px-4">
@@ -63,7 +63,7 @@ const Footer = () => {
                   fuga beatae aliquid consequatur.
                 </p>
                 <a
-                  href="#"
+                  href="http://bit.ly/ABAlgoTrade"
                   className="learn-more"
                 >
                   Sign Up
