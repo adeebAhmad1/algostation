@@ -55,7 +55,7 @@ const Setup = () => {
           </div>
         </div>
       </section>
-      <section className="height n2">
+      <section className="height n2 a">
         <div className="container mt-5">
           <div className="ribbon">
             Create a Platform
@@ -126,7 +126,7 @@ const Setup = () => {
           </div>
         </div>{" "}
       </section>
-      <section className="height n2">
+      <section className="height n2 b">
         <div className="container mt-5">
           <div className="ribbon">
             Subscribe to Retail Plan for Auto Trading
@@ -188,7 +188,7 @@ const Setup = () => {
           </div>
         </div>
       </section>
-      <section className="height n2">
+      <section className="height n2 c">
         <div className="container mt-5">
           <div className="ribbon">
             Setup your first algo trade

@@ -20,7 +20,7 @@ const Active = () => {
                   </svg>
                 </div>
                 <div className="col-lg-9 text-left">
-                  <h4 style={{ color: "var(--color)" }}>
+                  <h4 style={{ color: "var(--color-1)" }}>
                     <b>285</b>
                   </h4>
                   <h5 className="mb-0">Servers</h5>
@@ -42,7 +42,7 @@ const Active = () => {
                   >
                     <g>
                       <path
-                        style={{ fill: "var(--color)" }}
+                        style={{ fill: "var(--color-1)" }}
                         d="M183.903,0.001c101.566,0,183.902,82.336,183.902,183.902s-82.336,183.902-183.902,183.902
                             S0.001,285.469,0.001,183.903l0,0C-0.288,82.625,81.579,0.29,182.856,0.001C183.205,0,183.554,0,183.903,0.001z"
                       />
@@ -55,7 +55,7 @@ const Active = () => {
                   </svg>
                 </div>
                 <div className="col-lg-9 text-left">
-                  <h4 style={{ color: "var(--color)" }}>
+                  <h4 style={{ color: "var(--color-1)" }}>
                     <b>3,000+</b>
                   </h4>
                   <h5 className="mb-0">Algo Strategies</h5>
@@ -90,7 +90,7 @@ const Active = () => {
                   </svg>
                 </div>
                 <div className="col-lg-9 text-left">
-                  <h4 style={{ color: "var(--color)" }}>
+                  <h4 style={{ color: "var(--color-1)" }}>
                     <b>250,000</b>
                   </h4>
                   <h5 className="mb-0">Monthly Live Trades</h5>

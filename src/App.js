@@ -6,8 +6,9 @@ import Setup from "./components/Setup";
 import Performance from "./components/Performance";
 import Footer from "./components/Layout/Footer";
 function App() {
+  
   return (
-    <BrowserRouter>
+    window.innerWidth > 992 ? <BrowserRouter>
       <div className="App">
         <Header />
         <Switch>
@@ -17,7 +18,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </BrowserRouter>
+    </BrowserRouter> : <h1 className="text-center text-capitalize text-white" style={{fontFamily: `Audiowide`}}>This website is not compatable with mobile devices please operate it on Desktop / Laptop </h1>
   );
 }
 

@@ -5,11 +5,13 @@
 }
 
 :root {
-  --color-1: #1217a7;
-  --color-1-light: #1217a7cc;
-  --color-2: #2d30b1;
-  --color-2-light: #2d30b1cc;
+  --color-1: #2d30b1;
+  --color-1-light: #2e30b2b3;
+  --color-2: #1217a7;
+  --color-2-light: #1217a7b3;
 }
+
+
 
 header {
   position: absolute;
@@ -573,4 +575,95 @@ footer ul li a:hover {
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.n2.a{
+  background: var(--color-1-light), url(./images/1.jpg) fixed;
+  background-size: cover;
+  background: -webkit-linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/1.jpg) fixed;
+  background-size: cover;
+  background: linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/1.jpg) fixed;
+  background-size: cover;
+}
+.n2.b{
+  background: var(--color-1-light), url(./images/2.jpg) fixed;
+  background-size: cover;
+  background: -webkit-linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/2.jpg) fixed;
+  background-size: cover;
+  background: linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/2.jpg) fixed;
+  background-size: cover;
+}
+.n2.c{
+  background: var(--color-1-light), url(./images/3.jpg) fixed;
+  background-size: cover;
+  background: -webkit-linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/3.jpg) fixed;
+  background-size: cover;
+  background: linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/3.jpg) fixed;
+  background-size: cover;
+}
+.n2.d{
+  background: var(--color-1-light), url(./images/4.jpg) fixed;
+  background-size: cover;
+  background: -webkit-linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/4.jpg) fixed;
+  background-size: cover;
+  background: linear-gradient(to right bottom,var(--color-1-light),var(--color-2-light)), url(./images/4.jpg) fixed;
+  background-size: cover;
+}
+
+.step{
+  transform: skewX(-20deg);
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.step_inner{
+  transform: skewX(20deg);
+
+}
+
+.content{
+  transform: skewX(-20deg) scaleY(1.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2.5rem;
+  color: #fff;
+  text-align: center;
+  background: var(--bg);
+  position: relative;
+  min-height: 100%
+}
+
+.content::before,.content::after{
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  background: var(--bg);
+}
+
+.content::after{
+  top: 0;
+  right: -1px;
+  transform: skewX(20deg);
+}
+.content::before{
+  left: -1px;
+  bottom: 0;
+  transform: skewX(20deg);
+}
+
+.contant_inner{
+  transform: skewX(20deg);
+}
+
+.contant_inner{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contant_inner h1{
+  font-weight: 900;
+  font-size: 3rem;
 }
