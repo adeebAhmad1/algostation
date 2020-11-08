@@ -22,23 +22,6 @@ const Steps = () => {
               </a>
               </p>} />
           </div>
-          <div className="row mb-3">
-            <div className="col-lg-8 col-md-8">
-              
-            </div>
-            <div className="col-lg-4 col-md-4 text-center font-weight-bolder">
-              <a href="http://bit.ly/ABAlgoTrade" style={{...btn,fontSize: "1.3rem"}} className="learn-more">
-                CREATE TERMINAL
-              </a>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <p style={{fontSize: "1.3rem"}}>
-                <b><span style={{fontFamily: `Arial, Helvetica, sans-serif`,fontWeight: "900"}}>Step 3</span>: </b> Go to Setup <br/>
-              </p>
-            </div>
-          </div>
         </div>
       </section>
   );
