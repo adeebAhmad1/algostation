@@ -7,7 +7,7 @@ const Step = ({content,step,extra,bg}) => {
     <div className="step py-4 my-4">
       <div className="step_inner text-dark row">
         <div className="col-lg-3 position-relative">
-          <div className="option d-flex justify-content-center align-items-center h-100">
+          <div className="option d-flex justify-content-start align-items-center h-100">
             <div style={{...extra,...style}} className="content">
               <div className="contant_inner">
                 Step
