@@ -8,11 +8,41 @@ const Setup = () => {
       <section className="height">
         <div className="container mt-5">
           <div className="ribbon">
-            Create a Terminal
+            Create a Platform
           </div>
           <div className=" ">
             <p>
               <b>Step01:</b> Go here to{" "}
+              <a href="https://bit.ly/TTronOffer">Create Platform</a>
+            </p>
+            <p>
+              <p>
+                <b>Step02:</b>
+                <span>Click Sign Up</span>
+              </p>
+              <ul style={{listStyleType: "circle"}}>
+                <li>
+                  On the popup page enter your Name, Email, phone, country,
+                  state, and password.
+                </li>
+                <li>Select I agree box and click sign up</li>
+              </ul>
+            </p>
+            <p>
+              <b>Step03:</b> When you successfully sign up, go to your email
+              inbox, and complete the email verification.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="height n2 a">
+        <div className="container mt-5">
+          <div className="ribbon">
+            Create a Terminal
+          </div>
+          <div className=" ">
+            <p>
+              <b>Step01:</b> Go here {" "}
               <a href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
             </p>
             <p>
@@ -51,36 +81,6 @@ const Setup = () => {
             <p>
               <b>Step04:</b> You will receive your user id and login password to
               your email address when the account opening procedure is completed
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="height n2 a">
-        <div className="container mt-5">
-          <div className="ribbon">
-            Create a Platform
-          </div>
-          <div className=" ">
-            <p>
-              <b>Step01:</b> Go here to{" "}
-              <a href="https://bit.ly/TTronOffer">Create Platform</a>
-            </p>
-            <p>
-              <p>
-                <b>Step02:</b>
-                <span>Click Sign Up</span>
-              </p>
-              <ul style={{listStyleType: "circle"}}>
-                <li>
-                  On the popup page enter your Name, Email, phone, country,
-                  state, and password.
-                </li>
-                <li>Select I agree box and click sign up</li>
-              </ul>
-            </p>
-            <p>
-              <b>Step03:</b> When you successfully sign up, go to your email
-              inbox, and complete the email verification.
             </p>
           </div>
         </div>
@@ -177,7 +177,7 @@ const Setup = () => {
                   starts.
                 </li>
                 <li>
-                  <b className="text-danger">
+                  <b className="text-primary">
                     Please don’t use NEST Software or ANT Desk software on your
                     PC. You are allowed to use only ANT Mobi mobile application
                     and ant.abonline website during trading hours.
