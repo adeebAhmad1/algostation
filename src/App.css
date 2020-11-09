@@ -206,6 +206,19 @@ header:not(.scroll) {
   letter-spacing: 0.15rem;
   word-spacing: 0.5rem;
 }
+.prev,.next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  fill: #fff;
+}
+.prev{
+  left: 20px;
+}
+.next{
+  right: 20px;
+}
 
 .feature {
   background-color: rgb(255, 255, 255);

@@ -16,16 +16,9 @@ const Add = ({history}) => {
         storage.ref(`/${file.name}`).getDownloadURL().then(thumbnail=>{
           const obj = {description,type};
           obj["date"] = Date.now();
-          if(type === "Youtube"){
-            obj["thumbnail"] = thumbnail;
-            if(iframe){
-              obj["iframe"] = iframe;
-            }
-          } else if( type === "Image"){
-            obj["thumbnail"] = thumbnail;
-          } else if( type === "Video"){
-            obj["video"] = thumbnail;
-          }
+              if(type === "Youtube") obj["iframe"] = iframe;
+          else if( type === "Image") obj["thumbnail"] = thumbnail;
+          else if( type === "Video") obj["video"] = thumbnail;
           db.collection("performance").add(obj).then(()=> history.push("/panel/list"));
         })
       })
@@ -67,10 +60,12 @@ const Add = ({history}) => {
                 </label>
               </div> : ""
               }
-              <div className="form-group">
+              {
+                type === "Image" || type === "Video" ? <div className="form-group">
                 {type === "Video" ? <input className="form-input" onChange={e=> setFile(e.target.files[0])} accept="video/*" placeholder="Upload Thumbnail" id="thumb" type="file"/> : <input className="form-input" onChange={e=> setFile(e.target.files[0])}  placeholder="Upload Thumbnail" id="thumb" type="file" accept="image/*"/>}
-                <label className="form-label" htmlFor="thumb">{type === "Video" ? "Video" : type=== "Image" ? "Image" : "Thumbnail" }</label>
-              </div>
+                <label className="form-label" htmlFor="thumb">{type === "Video" ? "Video" : "Image"  }</label>
+              </div> : ""
+              }
               <div>
                 <div className="login">
                   <button className="btn btn-primary">
