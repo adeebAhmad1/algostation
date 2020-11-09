@@ -190,15 +190,15 @@ header:not(.scroll) {
 }
 
 .heading_primary h1 {
-  font-size: 3rem;
+  font-size: 3.3rem;
   font-weight: 600;
 }
 .heading_primary h3 {
-  font-size: 2.1rem;
+  font-size: 2.6rem;
   font-weight: 400;
 }
 .heading_primary p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -611,7 +611,7 @@ footer ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 2.5rem;
+  padding: 1rem 2.5rem;
   color: #fff;
   text-align: center;
   background: var(--bg);
@@ -768,5 +768,8 @@ footer ul li a:hover {
 }
 .card__item{
   min-height: 100%;
+}
 
+body{
+  overflow-x: hidden;
 }

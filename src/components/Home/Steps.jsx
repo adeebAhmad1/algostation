@@ -10,16 +10,17 @@ const Steps = () => {
         <div className="container">
           <h1 className="text-center py-5">Setup Your First Algo Trading in 3 Simple Steps</h1>
           <div className="row mb-3">
-            <Step step="01" bg="linear-gradient(to right, #e53935, #e35d5b)" extra={{padding: `1rem 2.5rem`}} content={<p style={{fontSize: '1.3rem'}}><b>Create a Platform</b><br /><span style={{fontSize: '0.8rem'}}>TT is India #1 &amp; U.S patent algo trading platform for retail traders and investors in India</span> <br/> <b className="text-primary" style={{fontSize: '0.9rem'}}>Create now and get retail plan free for 1 month (promo valid till further notice)</b></p>} />
-            <Step step="02" bg="linear-gradient(to right, #fc00ff, #00dbde)" extra={{padding: `1rem 2.5rem`}} content={<p style={{fontSize: "1.3rem"}}><b>Create a Terminal</b><br /><span style={{fontSize: "0.8rem"}}>Algo Traders recommend AB Terminal – Provide free algo trading, low brokerage, high exposure margin in India</span><br /><b className="text-primary" style={{fontSize: "0.9rem"}}>Create now and get 10% discounts on brokerage charges lifetime (offer valid till 01-Jan-21)</b></p>} />
-            <Step step="03" bg="linear-gradient(to right, #7b4397, #dc2430)" content={<p className="w-100" style={{fontSize: "1.2rem"}}>
+            <Step step="01" btn={
+              <a target="_blank" href="https://bit.ly/TTronOffer" style={{...btn,fontSize: "1.1rem"}} className="learn-more">
+              SIGNUP PLATFORM
+            </a>
+            } bg="linear-gradient(to right, #e53935, #e35d5b)" content={<p style={{fontSize: '1.2rem'}}><b>Create a Platform</b><br /><span style={{fontSize: '0.8rem'}}>TT is India #1 &amp; U.S patent algo trading platform for retail traders and investors in India</span> <br/> <b className="text-primary" style={{fontSize: '0.65rem'}}>Create now and get retail plan free for 1 month (promo valid till further notice)</b></p>} />
+            <Step step="02" btn={<a target="_blank" href="http://bit.ly/ABAlgoTrade" style={{...btn,fontSize: "1.1rem"}} className="learn-more">
+                SIGNUP TERMINAL
+              </a>} bg="linear-gradient(to right, #fc00ff, #00dbde)" content={<p style={{fontSize: "1.2rem"}}><b>Create a Terminal</b><br /><span style={{fontSize: "0.8rem"}}>Algo Traders recommend AB Terminal – Provide free algo trading, low brokerage, high exposure margin in India</span><br /><b className="text-primary" style={{fontSize: "0.65rem"}}>Create now and Get Rs.3000 Worth Trade Store Products Free!</b></p>} />
+            <Step btn={<a className="learn-more" style={{...btn,fontSize: "1.1rem"}} target="_blank" href="https://www.algostation.in/setup">Setup Platform</a> } step="03" bg="linear-gradient(to right, #7b4397, #dc2430)" content={<p className="w-100" style={{fontSize: "1.2rem"}}>
               <b>Go To Setup</b><br/>
-              <a href="http://bit.ly/ABAlgoTrade" style={{...btn,fontSize: "1.1rem"}} className="learn-more">
-                CREATE TERMINAL
-              </a>
-              <a href="https://bit.ly/TTronOffer" style={{...btn,fontSize: "1.1rem"}} className="learn-more">
-                CREATE PLATFORM
-              </a>
+              <span style={{fontSize: "0.8rem"}}>Complete setup in 5minutes and start your first algo trade</span>
               </p>} />
           </div>
         </div>

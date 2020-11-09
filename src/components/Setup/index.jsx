@@ -16,20 +16,20 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here to{" "}
-              <a className="learn-more" style={btn} href="https://bit.ly/TTronOffer">Create Platform</a>
+              <a target="_blank" className="learn-more" style={btn} href="https://bit.ly/TTronOffer">Create Platform</a>
             </p>
             <p>
               <p>
                 <b>Step02:</b>
-                <span>Click Sign Up</span>
               </p>
-              <ul style={{listStyleType: "circle"}}>
+              <ol type="A">
+                <li>Click on Sign up</li>
                 <li>
                   On the popup page enter your Name, Email, phone, country,
                   state, and password.
                 </li>
                 <li>Select I agree box and click sign up</li>
-              </ul>
+              </ol>
             </p>
             <p>
               <b>Step03:</b> When you successfully sign up, go to your email
@@ -46,7 +46,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here {" "}
-              <a className="learn-more" style={btn} href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
+              <a target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
             </p>
             <p>
               <p>
@@ -91,6 +91,30 @@ const Setup = () => {
       <section className="height">
         <div className="container mt-5">
           <div className="ribbon">
+            Subscribe to Retail Plan for Auto Trading
+          </div>
+          <div className=" ">
+            <p>
+              <b>Step01:</b> Go to subscriptions in TT from the top-right Menu
+            </p>
+            <p>
+              <b>Step02:</b>
+              Click change plan (<b>TT Subscription</b> - Exchange Set India)
+            </p>
+            <p>
+              <b>Step03:</b> Make sure in the Exchange sets India is selected
+              and click choose plan under retail
+            </p>
+            <p>
+              <b>Step04:</b> Enter the contact number and complete the
+              subscription
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="height n2 b">
+        <div className="container mt-5">
+          <div className="ribbon">
             Change your AB Broker 2FA passwords to same answer
           </div>
           <div className=" ">
@@ -129,30 +153,6 @@ const Setup = () => {
           </div>
         </div>{" "}
       </section>
-      <section className="height n2 b">
-        <div className="container mt-5">
-          <div className="ribbon">
-            Subscribe to Retail Plan for Auto Trading
-          </div>
-          <div className=" ">
-            <p>
-              <b>Step01:</b> Go to subscriptions in TT from the top-right Menu
-            </p>
-            <p>
-              <b>Step02:</b>
-              Click change plan (<b>TT Subscription</b> - Exchange Set India)
-            </p>
-            <p>
-              <b>Step03:</b> Make sure in the Exchange sets India is selected
-              and click choose plan under retail
-            </p>
-            <p>
-              <b>Step04:</b> Enter the contact number and complete the
-              subscription
-            </p>
-          </div>
-        </div>
-      </section>
       <section className="height">
         <div className="container mt-5">
           <div className="ribbon">
@@ -161,7 +161,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here{" "}
-              <a className="learn-more" style={btn} href="http://bit.ly/ABConfig">Configure</a>
+              <a target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABConfig">Configure</a>
             </p>
             <p>
               <b>Step02:</b>

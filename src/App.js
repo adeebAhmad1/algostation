@@ -10,6 +10,7 @@ import DataContextProvider, { DataContext } from "./context/DataContext";
 import AuthContextProvider, { AuthContext } from "./context/AuthContext";
 import Add from "./components/Panel/Add";
 import List from "./components/Panel/List";
+import mobile from "./images/mobile.png"
 import Details from "./components/Performance/Details";
 function App() {
   return window.innerWidth > 992 ? (
@@ -48,9 +49,12 @@ function App() {
       </DataContextProvider>
     </BrowserRouter>
   ) : (
-    <h1 className="text-center text-capitalize text-white" style={{ fontFamily: `Audiowide` }}>
-      This website is not compatable with mobile devices please operate it on Desktop / Laptop
-    </h1>
+    <div className="text-center text-capitalize">
+      <img style={{maxWidth: `70%`}} className="d-inline-block my-3" width="400px" src={mobile} alt="ABV" />
+      <h3 style={{ fontFamily: `Audiowide` }} className="p-2">
+      This Website is not optimized for mobile devices
+    </h3>
+    </div>
   );
 }
 
