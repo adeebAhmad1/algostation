@@ -16,7 +16,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here to{" "}
-              <a target="_blank" className="learn-more" style={btn} href="https://bit.ly/TTronOffer">Create Platform</a>
+              <a rel="noreferrer"target="_blank" className="learn-more" style={btn} href="https://bit.ly/TTronOffer">Create Platform</a>
             </p>
             <p>
               <p>
@@ -46,7 +46,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here {" "}
-              <a target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
+              <a rel="noreferrer"target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
             </p>
             <p>
               <p>
@@ -161,7 +161,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here{" "}
-              <a target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABConfig">Configure</a>
+              <a rel="noreferrer"target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABConfig">Configure</a>
             </p>
             <p>
               <b>Step02:</b>

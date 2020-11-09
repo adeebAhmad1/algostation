@@ -80,7 +80,7 @@ const Header = () => {
                         </NavLink>
                       </li>
                       <li>
-                        <a target="_blank" href="http://bit.ly/ABAlgoTrade" className="learn-more font-weight-bold">Sign Up</a>
+                        <a rel="noreferrer"target="_blank" href="http://bit.ly/ABAlgoTrade" className="learn-more font-weight-bold">Sign Up</a>
                       </li>
                     </ul>
                   </div>
