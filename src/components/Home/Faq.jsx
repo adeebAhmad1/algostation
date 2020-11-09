@@ -5,7 +5,7 @@ const Faq = () => {
   return (
     <div>
       <section className="faq py-5">
-        <h1 className="py-5 text-center text-white">
+        <h1 className="py-5 text-center">
           Frequently Asked Questions
         </h1>
         <div className="container faq_container">

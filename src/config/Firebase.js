@@ -25,7 +25,7 @@ var db = firebase.firestore();
 var storage = firebase.storage();
 
 // Create a storage reference from our storage service
-// var storageRef = storage.ref();
+var storageRef = storage.ref();
 
-// export {db, storage, storageRef}
+export { db, storage, storageRef }
 export default firebase;

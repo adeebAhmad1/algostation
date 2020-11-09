@@ -2,6 +2,9 @@ import React from "react";
 import Crumb from "../utils/Crumb";
 
 const Setup = () => {
+  const btn = {};
+  btn["--btn"] = "#000";
+  btn["--btn-color"] = "#fff";
   return (
     <main>
       <Crumb name={"Setup"} />
@@ -13,7 +16,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here to{" "}
-              <a href="https://bit.ly/TTronOffer">Create Platform</a>
+              <a className="learn-more" style={btn} href="https://bit.ly/TTronOffer">Create Platform</a>
             </p>
             <p>
               <p>
@@ -43,7 +46,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here {" "}
-              <a href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
+              <a className="learn-more" style={btn} href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
             </p>
             <p>
               <p>
@@ -158,7 +161,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01:</b> Go here{" "}
-              <a href="http://bit.ly/ABConfig">Configure</a>
+              <a className="learn-more" style={btn} href="http://bit.ly/ABConfig">Configure</a>
             </p>
             <p>
               <b>Step02:</b>

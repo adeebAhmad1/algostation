@@ -9,7 +9,6 @@ const Login = () => {
     e.preventDefault();
     firebase.auth().signInWithEmailAndPassword(email, password)
   }
-  console.log(firebase.auth().currentUser)
   return (
     <section>
       <Crumb name="Login" /> 

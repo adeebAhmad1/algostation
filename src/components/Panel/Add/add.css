@@ -1,0 +1,58 @@
+.form-section{
+  margin-top:-120px;
+  padding: 150px 0 150px;
+  background-image: linear-gradient(to right bottom , #2998ff , #5643fa);
+  background-size: cover;
+  clip-path: polygon(0 10%,100% 0,100% 100%, 0 100%)
+}
+.book{
+  background-image: linear-gradient(105deg , rgba(255 , 255,255 , 0.8) 0% , rgba(255 , 255,255 , 0.8) 50% , transparent 50%);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35); 
+}
+.form-group:not(:last-child){
+  margin-bottom: 10px
+}
+.form-book{
+  width: 50%;
+  padding: 60px;
+}
+.form-input{
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-family: inherit;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+  width: 90%;
+  display: block;
+  color: inherit
+}
+.form-input::-webkit-input-placeholder{
+  color: #999;
+}
+.form-label{
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: block;
+  transition: all .3s;
+}
+.form-input:focus{
+  outline: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+  border-bottom: 3px solid #2998ff;
+  transform: scale(1.05) translateY(-4px)
+}
+.form-input:focus:invalid {
+  border-bottom: 3px solid #ff2929 ;
+}
+.form-input:placeholder-shown + .form-label{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-40px)
+}
