@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { DataContext } from "../../../context/DataContext";
 import Crumb from "../../utils/Crumb";
-import firebase, { db, storage, storageRef } from "../../../config/Firebase"
+import firebase, { db, storage } from "../../../config/Firebase"
 const List = ({history}) => {
   const data = useContext(DataContext);
   const showTable = () =>
