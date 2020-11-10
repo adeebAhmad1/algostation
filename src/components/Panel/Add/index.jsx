@@ -14,7 +14,11 @@ const Add = ({ history }) => {
   const onSubmit = (e) => {
     setStart(true);
     e.preventDefault();
-    storage
+    const obj = { description, type };
+    obj["date"] = Date.now();
+    if (type === "Youtube") obj["iframe"] = iframe;
+    if(type !== "Youtube"){
+      storage
       .ref(`/${file.name}`)
       .put(file)
       .then(() => {
@@ -22,10 +26,7 @@ const Add = ({ history }) => {
           .ref(`/${file.name}`)
           .getDownloadURL()
           .then((thumbnail) => {
-            const obj = { description, type };
-            obj["date"] = Date.now();
-            if (type === "Youtube") obj["iframe"] = iframe;
-            else if (type === "Image") obj["thumbnail"] = thumbnail;
+            if (type === "Image") obj["thumbnail"] = thumbnail;
             else if (type === "Video") obj["video"] = thumbnail;
             db.collection("performance")
               .add(obj)
@@ -38,6 +39,15 @@ const Add = ({ history }) => {
               });
           });
       });
+    } else{
+      db.collection("performance").add(obj).then(() => {
+        history.push("/panel/list");
+        setFile(null);
+        setStart(false);
+        setIframe("");
+        setDesc("");
+      });
+    }
   };
   return (
     <div>

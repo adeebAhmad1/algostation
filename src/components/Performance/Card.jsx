@@ -20,7 +20,6 @@ const Card = ({video,thumbnail,date,description,iframe,type,id}) => {
             <img className="card__img" src={thumbnail} alt="Snowy Mountains" />
           )}
           <div className="card__content">
-            
             <p className="card__text">{description}</p>
             <Link to={`/performance/${id}`} className="card__btn text-decoration-none">
               View <span>&rarr;</span>
