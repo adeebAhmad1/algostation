@@ -15,12 +15,12 @@ const Setup = () => {
           </div>
           <div className=" ">
             <p>
-              <b>Step01:</b> Go here to{" "}
+              <b>Step01: </b> Go here to{" "}
               <a rel="noreferrer" target="_blank" className="learn-more" style={btn} href="https://bit.ly/TTronOffer">Create Platform</a>
             </p>
             <p>
               <p>
-                <b>Step02:</b>
+                <b>Step02: </b>
               </p>
               <ol type="A">
                 <li>Click on Sign up</li>
@@ -32,7 +32,7 @@ const Setup = () => {
               </ol>
             </p>
             <p>
-              <b>Step03:</b> When you successfully sign up, go to your email
+              <b>Step03: </b> When you successfully sign up, go to your email
               inbox, and complete the email verification.
             </p>
           </div>
@@ -45,12 +45,12 @@ const Setup = () => {
           </div>
           <div className=" ">
             <p>
-              <b>Step01:</b> Go here {" "}
+              <b>Step01: </b> Go here {" "}
               <a rel="noreferrer" target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABAlgoTrade">CREATE TERMINAL</a>
             </p>
             <p>
               <p>
-                <b>Step02:</b>{" "}
+                <b>Step02: </b>{" "}
                 <span>
                   Enter your Name, Email address, State and Mobile number then
                   click open an account and complete the account opening
@@ -76,13 +76,13 @@ const Setup = () => {
                 </li>
               </ol>
             </p>
-            <p>
+            {/* <p>
               <b>Step03:</b> Choose <b>Trade Pro</b>{" "}
               Plan (we need 10x leverage for the Algo trading) when it asks to
               choose the trading plan
-            </p>
+            </p> */}
             <p>
-              <b>Step04:</b> You will receive your user id and login password to
+              <b>Step03: </b> You will receive your user id and login password to
               your email address when the account opening procedure is completed
             </p>
           </div>
@@ -95,18 +95,18 @@ const Setup = () => {
           </div>
           <div className=" ">
             <p>
-              <b>Step01:</b> Go to subscriptions in TT from the top-right Menu
+              <b>Step01: </b> Go to subscriptions in TT from the top-right Menu
             </p>
             <p>
-              <b>Step02:</b>{" "}
+              <b>Step02: </b>{" "}
               Click change plan (<b>TT Subscription</b> - Exchange Set India)
             </p>
             <p>
-              <b>Step03:</b> Make sure in the Exchange sets India is selected
+              <b>Step03: </b> Make sure in the Exchange sets India is selected
               and click choose plan under retail
             </p>
             <p>
-              <b>Step04:</b> Enter the contact number and complete the
+              <b>Step04: </b> Enter the contact number and complete the
               subscription
             </p>
           </div>
@@ -119,7 +119,7 @@ const Setup = () => {
           </div>
           <div className=" ">
             <p>
-              <b>Step01:</b> Go to Ant AB website and directly click forgot
+              <b>Step01: </b> Go to Ant AB website and directly click forgot
               password.
               <ol>
                 <li>Enter Client ID, Email ID, and Pan Number </li>
@@ -128,7 +128,7 @@ const Setup = () => {
               </ol>
             </p>
             <p>
-              <b>Step02:</b>
+              <b>Step02: </b>
               Again go to Ant AB website and enter client Id and Password
               <ul>
                 <li>Click secure sign-in</li>
@@ -148,7 +148,7 @@ const Setup = () => {
               </ul>
             </p>
             <p>
-              <b>Step03:</b> Login again with the new 2FA password
+              <b>Step03: </b> Login again with the new 2FA password
             </p>
           </div>
         </div>{" "}
@@ -160,11 +160,11 @@ const Setup = () => {
           </div>
           <div className=" ">
             <p>
-              <b>Step01:</b> Go here{" "}
+              <b>Step01: </b> Go here{" "}
               <a rel="noreferrer" target="_blank" className="learn-more" style={btn} href="http://bit.ly/ABConfig">Configure</a>
             </p>
             <p>
-              <b>Step02:</b>
+              <b>Step02: </b>
               Follow the setup instructions and complete the configuration
               <br />
               <b>Note:</b>
@@ -198,26 +198,28 @@ const Setup = () => {
           </div>
           <div className=" ">
             <p>
-              <b>Step01:</b> Go to Marketplace in TT from Top Center Menu under
+              <b>Step01: </b> Go to Marketplace in TT from Top Center Menu under
               Strategies and search ‘‘Penguin Cave // SOURCE’’
             </p>
             <p>
-              <b>Step02:</b>
+              <b>Step02: </b>
               Click on Subscribe
             </p>
             <p>
-              <b>Step03:</b>
+              <b>Step03: </b>
               Go to the “My Strategies” page from Top Center Menu under
               Strategies and find the above strategy under “Subscribed.”
             </p>
             <p>
-              <b>Step04:</b>
+              <b>Step04: </b>
               Click on Deploy. Choose the default settings of “Paper Trading”
               and “TT-PaperTrading” to begin. When you are comfortable with the
               strategy, you can deploy it live Auto in your Trading account.
+              <br />
+              Join with their telegram channel to get notified about their updates.
             </p>
             <p>
-              <b>Step05:</b>
+              <b>Step05: </b>
               To track the strategy on the “Deployed” page. If it shows active,
               it means it’s working well. During market hours, this strategy
               will take some positions daily.

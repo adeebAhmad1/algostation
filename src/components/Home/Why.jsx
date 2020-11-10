@@ -171,7 +171,7 @@ const Why = () => {
                   <h3 className="feature_heading">Speed</h3>
                   <p>
                     The speed is fast to the point that it is hard to take note
-                    of, as an individual.
+                    of, as an individual
                   </p>
                 </div>
               </div>
@@ -212,7 +212,7 @@ const Why = () => {
                   <h3 className="feature_heading">Emotionless</h3>
                   <p>
                     Stay focused against our biggest enemy while trading - our
-                    emotions.
+                    emotions
                   </p>
                 </div>
               </div>
@@ -239,7 +239,7 @@ const Why = () => {
                   <h3 className="feature_heading">Precision</h3>
                   <p>
                     Precision is the key to getting better outcomes in stock
-                    trading too.
+                    trading too
                   </p>
                 </div>
               </div>
@@ -272,7 +272,7 @@ const Why = () => {
                   <h3 className="feature_heading">Hassle Free</h3>
                   <p>
                     Save time spent on analysis & focus on building proficient
-                    strategies.
+                    strategies
                   </p>
                 </div>
               </div>
@@ -309,7 +309,7 @@ const Why = () => {
                   <h3 className="feature_heading">Fully Automated</h3>
                   <p>
                     It permits the user to trade in multiple accounts or
-                    strategies at a time.
+                    strategies at a time
                   </p>
                 </div>
               </div>
@@ -455,7 +455,7 @@ const Why = () => {
                   <h3 className="feature_heading">Reduced Costs</h3>
                   <p>
                     The cost spent on analyzing the markets is radically
-                    lessened.
+                    lessened
                   </p>
                 </div>
               </div>

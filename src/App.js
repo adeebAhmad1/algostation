@@ -53,7 +53,7 @@ function App() {
   ) : (
     <div className="text-center text-capitalize">
       <img style={{maxWidth: `70%`}} className="d-inline-block my-3" width="400px" src={mobile} alt="ABV" />
-      <h3 style={{ fontFamily: `Audiowide` }} className="p-2">
+      <h3 style={{ fontFamily: `Oswald` }} className="p-2">
       This Website is not optimized for mobile devices
     </h3>
     </div>

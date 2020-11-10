@@ -8,7 +8,7 @@ const Info = () => {
           <h1>Fully Automated Algo Trading</h1>
           <h3> <b>Eliminate Emotion | Increase Profits</b> </h3>
           <p><b>All entries, stops, targets and risk management 100% automated</b></p>
-          <b className="d-block" style={{fontSize: `1.2rem`}}>Trades in your own account no need to pay us anything </b>
+          <b className="d-block" style={{fontSize: `1.2rem`}}>Trades in your own account and no need to pay us anything </b>
         </div>
       </div>
     </section>

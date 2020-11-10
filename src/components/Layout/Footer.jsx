@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-md-8">
             <div className="row">
               <div className="col-md-6">
-                <div className="logo-part">
+                <div className="logo-part px-4 py-2">
                   <Link
                     className="navbar-brand nav-brand"
                     style={{ color: "#fff" }}
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-6 px-4">
-                <a href="http://bit.ly/ABAlgoTrade" className="learn-more">
+                <a target="blank" href="https://bit.ly/TTronOffer" className="learn-more">
                   Sign Up
                 </a>
                 <br />
@@ -116,7 +116,7 @@ const Footer = () => {
           <div className="col-md-4">
             <div className="row">
               <div className="col-md-12 px-4">
-                <h5>Help us</h5>
+                {/* <h5>Help us</h5> */}
                 <div className="row ">
                   <div className="col-md-6">
                     <ul>
@@ -124,13 +124,14 @@ const Footer = () => {
                         <Link to="/"> Home</Link>{" "}
                       </li>
                       <li>
+                      <Link to="/setup"> Setup</Link>{" "}
+                      </li>
+                      <li>
                         <Link to="/performance"> Performance</Link>{" "}
                       </li>
                       <li>
                         <Link to="/terms"> Terms & Conditions</Link>{" "}
-                      </li>
-                      <li>
-                        <Link to="/setup"> Setup</Link>{" "}
+                       
                       </li>
                     </ul>
                   </div>

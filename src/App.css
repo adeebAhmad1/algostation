@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   font-family: "Montserrat", sans-serif;
@@ -127,12 +127,6 @@ header li{
   transform: translateY(-0.3rem);
 }
 
-.nav-brand {
-  font-size: 2rem;
-  font-weight: 400;
-  font-family: 'Audiowide', "Montserrat", sans-serif;
-  letter-spacing: 0.3rem;
-}
 
 
 header.scroll {
@@ -689,7 +683,7 @@ footer ul li a:hover {
   height: 180px;
 }
 .card__content {
-  padding: 30px 30px;
+  padding: 20px 20px;
 }
 .card__header {
   font-size: 24px;
