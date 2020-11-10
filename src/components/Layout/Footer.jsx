@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-md-8">
             <div className="row">
               <div className="col-md-6">
-                <div className="logo-part px-4 py-2">
+                <div className="logo-part px-5 py-2">
                   <Link
                     className="navbar-brand nav-brand"
                     style={{ color: "#fff" }}
