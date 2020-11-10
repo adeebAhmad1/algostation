@@ -50,7 +50,7 @@ const Setup = () => {
             </p>
             <p>
               <p>
-                <b>Step02:</b>
+                <b>Step02:</b>{" "}
                 <span>
                   Enter your Name, Email address, State and Mobile number then
                   click open an account and complete the account opening
@@ -77,7 +77,7 @@ const Setup = () => {
               </ol>
             </p>
             <p>
-              <b>Step03:</b> Choose <b className="text-danger">Trade Pro</b>{" "}
+              <b>Step03:</b> Choose <b>Trade Pro</b>{" "}
               Plan (we need 10x leverage for the Algo trading) when it asks to
               choose the trading plan
             </p>
@@ -98,7 +98,7 @@ const Setup = () => {
               <b>Step01:</b> Go to subscriptions in TT from the top-right Menu
             </p>
             <p>
-              <b>Step02:</b>
+              <b>Step02:</b>{" "}
               Click change plan (<b>TT Subscription</b> - Exchange Set India)
             </p>
             <p>
@@ -180,7 +180,7 @@ const Setup = () => {
                   starts.
                 </li>
                 <li>
-                  <b className="text-primary">
+                  <b className="text-danger">
                     Please don’t use NEST Software or ANT Desk software on your
                     PC. You are allowed to use only ANT Mobi mobile application
                     and ant.abonline website during trading hours.

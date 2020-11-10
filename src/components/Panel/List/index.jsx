@@ -24,9 +24,9 @@ const List = ({history}) => {
           <td style={{ width: `7%` }}><button onClick={()=>{
             db.collection("performance").doc(el.id).delete().then(()=>{
               if(el.type === "Video"){
-                storage.refFromURL(el.video).delete().then(()=>alert('msg'))
+                storage.refFromURL(el.video).delete()
               } else if(el.type === "Image"){
-                storage.refFromURL(el.thumbnail).delete().then(()=>alert('msg'))
+                storage.refFromURL(el.thumbnail).delete()
               }
             });
             

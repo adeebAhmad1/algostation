@@ -12,6 +12,7 @@ import Add from "./components/Panel/Add";
 import List from "./components/Panel/List";
 import mobile from "./images/mobile.png"
 import Details from "./components/Performance/Details";
+import Terms from "./components/Terms";
 function App() {
   return window.innerWidth > 992 ? (
     <BrowserRouter>
@@ -28,6 +29,7 @@ function App() {
                         <Switch>
                           <Route exact path="/" component={Home} />
                           <Route exact path="/setup" component={Setup} />
+                          <Route exact path="/terms" component={Terms} />
                           {data.performanceLoaded ? <Route path="/performance/:id" component={Details} /> : ""}
                           <Route path="/performance" component={Performance} />
                           {auth.isAuth ? "" : <Route exact path="/login" component={Login} />}

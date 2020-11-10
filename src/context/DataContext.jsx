@@ -9,7 +9,7 @@ class DataContextProvider extends Component {
     allLoaded: false
   };
   getData = (type,typeLoaded)=>{
-    db.collection(type).onSnapshot( snapShot=>{
+    db.collection(type).orderBy("date", "desc").onSnapshot( snapShot=>{
       const array = [];
       snapShot.forEach(doc=>{
         const data = doc.data();

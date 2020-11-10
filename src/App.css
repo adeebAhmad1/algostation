@@ -185,21 +185,18 @@ header:not(.scroll) {
 .heading_primary {
   text-align: center;
 }
-.heading_primary * {
-  font-weight: 400;
-}
+
 
 .heading_primary h1 {
   font-size: 3.3rem;
   font-weight: 600;
 }
 .heading_primary h3 {
-  font-size: 2.6rem;
-  font-weight: 400;
+  font-size: 2.4rem;
 }
 .heading_primary p {
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .algo {
@@ -279,10 +276,11 @@ header:not(.scroll) {
 }
 
 .learn-more {
-  color: var(--btn);
+  color: #fff;
+  text-transform: uppercase;
   display: inline-block;
-  background-color: transparent;
-  border: 2px solid var(--btn);
+  background: linear-gradient(to right bottom,var(--color-1),var(--color-2));
+  border: 2px solid var(--color-1);
   transition: all 0.4s;
   padding: 0.6rem 1.5rem;
   border-radius: 4rem;
@@ -290,8 +288,8 @@ header:not(.scroll) {
 }
 
 .learn-more:hover {
-  color: var(--btn-color);
-  background-color: var(--btn);
+  color: var(--color-1);
+  background: #fff;
   text-decoration: none;
 }
 .bg-grey {
@@ -488,7 +486,6 @@ footer ul li a:hover {
 }
 
 .n2 a{
-  color: #000;
   font-weight: bold;
 }
 
@@ -785,4 +782,75 @@ footer ul li a:hover {
 
 body{
   overflow-x: hidden;
+}
+
+.loader_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+}
+.done{
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.loader {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 0px;
+  opacity: 0.5;
+  border: 3px solid #2998ff;
+  -webkit-animation: loader 1s ease-in-out infinite alternate;
+  animation: loader 1s ease-in-out infinite alternate;
+}
+
+.loader:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid #2998ff;
+}
+
+.loader:after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 3px solid #2998ff;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg) scale(1, 1);
+    border-radius: 0px;
+  }
+  to {
+    transform: rotate(360deg) scale(0, 0);
+    border-radius: 50px;
+  }
+}
+@-webkit-keyframes loader {
+  from {
+    -webkit-transform: rotate(0deg) scale(1, 1);
+    border-radius: 0px;
+  }
+  to {
+    -webkit-transform: rotate(360deg) scale(0, 0);
+    border-radius: 50px;
+  }
 }

@@ -6,9 +6,9 @@ const Info = () => {
       <div className="top_section">
         <div className="heading_primary">
           <h1>Fully Automated Algo Trading</h1>
-          <h3>Eliminate Emotion | Increase Profits</h3>
-          <p>All entries, stops, targets and risk management 100% automated.</p>
-          <span className="d-block">Trades in your own account no need to pay us anything </span>
+          <h3> <b>Eliminate Emotion | Increase Profits</b> </h3>
+          <p><b>All entries, stops, targets and risk management 100% automated</b></p>
+          <b className="d-block" style={{fontSize: `1.2rem`}}>Trades in your own account no need to pay us anything </b>
         </div>
       </div>
     </section>

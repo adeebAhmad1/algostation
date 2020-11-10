@@ -2,24 +2,33 @@ import React, { useState } from "react";
 import "./add.css";
 import { db, storage } from "../../../config/Firebase";
 import Crumb from "../../utils/Crumb";
+import Loader from "./Loader";
 
 const Add = ({history}) => {
   const [description, setDesc] = useState("");
   const [type, setType] = useState("");
   const [iframe, setIframe] = useState("");
+  const [start,setStart] = useState(false)
   const [file, setFile] = useState(null);
   const options = ["Youtube","Image","Video"];
   const onSubmit = e => {
     if(file){
+      setStart(true)
       e.preventDefault();
       storage.ref(`/${file.name}`).put(file).then(()=>{
         storage.ref(`/${file.name}`).getDownloadURL().then(thumbnail=>{
           const obj = {description,type};
           obj["date"] = Date.now();
               if(type === "Youtube") obj["iframe"] = iframe;
-          else if( type === "Image") obj["thumbnail"] = thumbnail;
+              else if( type === "Image") obj["thumbnail"] = thumbnail;
           else if( type === "Video") obj["video"] = thumbnail;
-          db.collection("performance").add(obj).then(()=> history.push("/panel/list"));
+          db.collection("performance").add(obj).then(()=> {
+            history.push("/panel/list")
+            setFile(null);
+            setStart(false);
+            setIframe("");
+            setDesc("");
+          });
         })
       })
     }
@@ -29,6 +38,7 @@ const Add = ({history}) => {
       <Crumb name="Add Performance" />
       <section id="form-section" className="form-section">
       <div className="container">
+      <Loader show={start} />
       <div className="row">
         <div className="book w-100">
           <div className="form-book">
@@ -68,9 +78,13 @@ const Add = ({history}) => {
               }
               <div>
                 <div className="login">
-                  <button className="btn btn-primary">
+                  {
+                    start ? <button disabled={true} className="btn btn-primary">
+                    Login
+                  </button> : <button  className="btn btn-primary">
                     Login
                   </button>
+                  }
                 </div>
               </div>
             </form>

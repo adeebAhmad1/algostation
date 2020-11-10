@@ -20,11 +20,13 @@ const Card = ({video,thumbnail,date,description,iframe,type,id}) => {
             <img className="card__img" src={thumbnail} alt="Snowy Mountains" />
           )}
           <div className="card__content">
-            <h1 className="card__header">{new Date(date).toDateString()}</h1>
+            
             <p className="card__text">{description}</p>
             <Link to={`/performance/${id}`} className="card__btn">
               View <span>&rarr;</span>
             </Link>
+            <a href="https://bit.ly/TTronOffer" className="learn-more my-2 mr-0" style={{fontSize: `0.6rem`}}>SignUp to TT</a>
+            <a href="https://bit.ly/ABAlgoTrade" className="learn-more my-2 mr-0 ml-1"  style={{fontSize: `0.6rem`}}>SignUp to Platform</a>
           </div>
         </div>
       </div>

@@ -27,12 +27,12 @@ const Header = () => {
           <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
               <div className="row">
-                <div className="col-lg-3">
+                <div className="col-lg-2">
                   <Link className="navbar-brand nav-brand" to="/">
                     <img src={Logo} style={{ maxWidth: `100%` }} alt="" />
                   </Link>
                 </div>
-                <div className="col-lg-9">
+                <div className="col-lg-10">
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -80,7 +80,7 @@ const Header = () => {
                         </NavLink>
                       </li>
                       <li>
-                        <a rel="noreferrer" target="_blank" href="http://bit.ly/ABAlgoTrade" className="learn-more font-weight-bold">Sign Up</a>
+                        <a rel="noreferrer" target="_blank" href="https://bit.ly/TTronOffer" className="learn-more font-weight-bold">Sign Up</a>
                       </li>
                     </ul>
                   </div>
