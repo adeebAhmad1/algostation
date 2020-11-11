@@ -21,7 +21,7 @@ const Card = ({video,thumbnail,date,description,iframe,type,id}) => {
           )}
           <div className="card__content">
             <p className="card__text">{description}</p>
-            <Link  to={`/performance/${id}`} className="card__btn text-decoration-none text-uppercase">
+            <Link  to={`/performance/${id}`} className="font-weight-bold card__btn text-decoration-none text-uppercase">
               View <span>&rarr;</span>
             </Link>
             <p style={{whiteSpace: "nowrap"}}>
