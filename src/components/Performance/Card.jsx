@@ -21,12 +21,12 @@ const Card = ({video,thumbnail,date,description,iframe,type,id}) => {
           )}
           <div className="card__content">
             <p className="card__text">{description}</p>
-            <Link to={`/performance/${id}`} className="card__btn text-decoration-none">
+            <Link  to={`/performance/${id}`} className="card__btn text-decoration-none text-uppercase">
               View <span>&rarr;</span>
             </Link>
             <p style={{whiteSpace: "nowrap"}}>
-            <a href="https://bit.ly/TTronOffer" className="learn-more my-2 mr-0 ml-0" style={{fontSize: `0.6rem`}}>SIGNUP Platform</a>
-            <a href="https://bit.ly/ABAlgoTrade" className="learn-more my-2 mr-0 ml-1"  style={{fontSize: `0.6rem`}}>SIGNUP Terminal</a>
+            <a target="_blank" rel="noreferrer" href="https://bit.ly/TTronOffer" className="learn-more my-2 mr-0 ml-0" style={{fontSize: `0.6rem`}}>SIGNUP Platform</a>
+            <a target="_blank" rel="noreferrer" href="https://bit.ly/ABAlgoTrade" className="learn-more my-2 mr-0 ml-1"  style={{fontSize: `0.6rem`}}>SIGNUP Terminal</a>
             </p>
           </div>
         </div>

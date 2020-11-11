@@ -33,7 +33,7 @@ const Setup = () => {
             </p>
             <p>
               <b>Step03: </b> When you successfully sign up, go to your email
-              inbox, and complete the email verification.
+              inbox, and complete the email verification
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Setup = () => {
                 <span>
                   Enter your Name, Email address, State and Mobile number then
                   click open an account and complete the account opening
-                  procedure.
+                  procedure
                 </span>
               </p>
               <p>
@@ -72,15 +72,10 @@ const Setup = () => {
                 </li>
                 <li>
                   Applicant’s specimen signature (image file).{" "}
-                  <b>Note: same like as on the Pan card.</b>
+                  <b>Note: same like as on the Pan card</b>
                 </li>
               </ol>
             </p>
-            {/* <p>
-              <b>Step03:</b> Choose <b>Trade Pro</b>{" "}
-              Plan (we need 10x leverage for the Algo trading) when it asks to
-              choose the trading plan
-            </p> */}
             <p>
               <b>Step03: </b> You will receive your user id and login password to
               your email address when the account opening procedure is completed
@@ -120,7 +115,7 @@ const Setup = () => {
           <div className=" ">
             <p>
               <b>Step01: </b> Go to Ant AB website and directly click forgot
-              password.
+              password
               <ol>
                 <li>Enter Client ID, Email ID, and Pan Number </li>
                 <li>Select Reset 2FA </li>
@@ -171,19 +166,19 @@ const Setup = () => {
               <ol type="A">
                 <li>
                   Put your AB Client ID in the client id tab & write random
-                  letters in client secret and token.
+                  letters in client secret and token
                 </li>
                 <li>
                   Enter your AB user id, AB password and AB 2FA password (EX:
                   apple) under Auto login. If you do not enter these details you
                   will have to generate a token every day before the trading
-                  starts.
+                  starts
                 </li>
                 <li>
                   <b className="text-danger">
                     Please don’t use NEST Software or ANT Desk software on your
                     PC. You are allowed to use only ANT Mobi mobile application
-                    and ant.abonline website during trading hours.
+                    and ant.abonline website during trading hours
                   </b>
                 </li>
               </ol>
@@ -215,7 +210,6 @@ const Setup = () => {
               Click on Deploy. Choose the default settings of “Paper Trading”
               and “TT-PaperTrading” to begin. When you are comfortable with the
               strategy, you can deploy it live Auto in your Trading account.
-              <br />
               Join with their telegram channel to get notified about their updates.
             </p>
             <p>
